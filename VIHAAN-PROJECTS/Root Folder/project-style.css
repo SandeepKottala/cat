@@ -1,0 +1,75 @@
+body{
+	font-family: cursive;
+	background-color: rgb(211,238,192);
+	margin: 0;
+	line-height: 1.6;
+	
+}
+a{
+	text-decoration: none;
+	color: rgb(226,7,131);
+}
+#done{
+	margin: 30;
+	padding: 0;
+	background: url(th.png) no-repeat center/cover;
+	height: 100vh;
+	overflow: hidden;
+}
+#done.container{
+	margin-top: 25vh;
+}
+#done h1{
+	font-size: 4rem;
+}
+#done h2{
+	font-size: 2rem;
+}
+nav{
+	height: 40px;
+	width: 1005;
+	background-color: rgb(211,238,192);
+	color: pink;
+	/*position: fixed;*/
+}
+nav ul{
+      margin: 0;
+	  padding: 0;
+}
+nav li{
+	display: inline;
+	float: left;
+}
+nav a{
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	padding: 10px 0;
+	color: red;
+}
+nav li:hover{
+	background-color: red;
+}
+.container{
+	max-width: 1180px;
+	text-align: center;
+	margin: 0 auto;
+	padding: o 3rem;
+}
+footer .footer-cols{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(4,1fr);
+	padding: 2rem;
+	text-align: left;
+	font-size: 14px;
+}
+footer .footer-cols ul{
+	list-style: none;
+
+}
+footer .footer-cols ul li:first-child{
+	font-size: 1.2rem;
+	padding-bottom: 0.5rem;
+	border-bottom: #444  solid 1px;
+}

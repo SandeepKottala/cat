@@ -1,0 +1,46 @@
+*{
+margin:0px;
+}
+header
+{
+text-align:center;
+background-color:#030606;
+padding:3px;
+color:white;
+}
+nav a{
+text-decoration:none;
+text-height:2px;
+color:white;
+}
+nav{
+width:110px;
+height:500px;
+float:left;
+padding:15px;
+margin:0px;
+background-color:#022d2d;
+}
+section{
+margin:0px;
+padding:15px 15px 25px 160px;
+height:490px;
+background-image:url("project-02-image.png");
+background-repeat:no-repeat;
+background-size:cover;
+
+color:white;
+
+}
+footer{
+text-align:center;
+padding:20px;
+background-color:#030606;
+color:white;
+background-position:relative;
+}
+footer a{
+color:white;
+text-decoration:none;
+}
+

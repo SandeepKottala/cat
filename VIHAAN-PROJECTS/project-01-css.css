@@ -1,0 +1,24 @@
+ul{
+	list-style-type: none;
+}
+li{
+	float: left;
+	width: 300px;
+	height: 60px;
+}
+a{
+	text-decoration: none;
+	font-size:30px ;
+	background: linear-gradient(#5DA6E1,#185282);
+	display: block;
+	padding: 8px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	line-height: 36px;
+}
+a:hover{
+	font-size: 32px;
+	background: linear-gradient(#64D86a,#1D7521);
+
+}
